@@ -1,0 +1,19 @@
+{
+  "name": "soat-masterclass-tests",
+  "version": "1.0.0",
+  "description": "SOAT MasterClass Tests",
+  "author": "SOAT",
+  "license": "BSD 3-Clause",
+  "main": "none",
+  "scripts": {
+    "test": "jest",
+    "tdd": "jest --watch",
+    "cover": "jest --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "24.0.21",
+    "jest": "24.9.0",
+    "ts-jest": "24.1.0",
+    "typescript": "3.7.2"
+  }
+}
